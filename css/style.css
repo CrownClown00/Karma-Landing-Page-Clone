@@ -127,8 +127,39 @@ padding-top: 5em;
 
 .devices li{
 	display: inline-block;
+	}
+
+.social{
 	text-align: center;
-	margin: 0 auto;
+
+}
+.social h4{
+	margin-bottom: -3em;
+}
+.icon li {
+	display: inline-block;
+	margin: 0 1em 0 1em;
+	
+	border-radius: 50%;
+	background-color: white;
+	width: 50px;
+	height: 50px;
+	padding: 0.625rem 0;
+	border: 1px solid black;
+
+}
+
+.twitter{
+	color: #1DC6FF;
+}
+
+
+#facebook{
+	color: #3B5998;
+}
+
+#instagram{
+	color:;
 }
 
 	 
