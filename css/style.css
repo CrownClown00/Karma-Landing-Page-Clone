@@ -1,6 +1,99 @@
 body {
-    background-color: LightGray;
+    /*background-color: LightGray;*/
+     
+
+
+
 }
+
+
 div {
     border: 1px solid Chocolate;
+}
+
+
+.content{
+	font-family: 'Roboto', sans-serif; 
+font-size: 16px; 
+color: #fff; 
+letter-spacing: 0.03em;
+padding: 0px 15px;
+ width: 970px;
+margin: 0 auto;
+text-align: center;
+
+}
+
+/* Navigation Section */
+.top-navigation {
+    background-color: #fff;
+}
+.top-navigation > .content {
+   
+    height: 70px;
+    margin: 0 auto;
+    
+   
+}
+
+.top-navigation .logo {
+  height: 4.375rem;
+}
+
+
+.top-navigation .links li {
+  display: inline-block;
+  margin-left: 1.563rem;
+}
+
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 600;
+}
+
+.top-navigation .links {
+  float: right;
+  color: #838994;
+  font-size: 1.04rem;
+  margin-top: 1.7rem;
+}
+
+
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}  
+
+
+.introduction{
+	 background-image: url("../images/first-background copy.jpg");
+     background-size: cover;
+     background-position: center bottom;
+     height: 45.938rem;
+}
+
+
+
+
+
+ .introduction .content{
+
+ 	padding-top: 10em;
+ }
+
+
+.big-button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    background-color: #f15a29;
+    margin:0 auto;
+    color:white;
+}
+
+.big-button:hover{
+	cursor: pointer;
+    color: #333333;
 }
